@@ -1,0 +1,131 @@
+:root {
+  --color: #18333E;
+  --serif: 'Baloo 2', sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  max-width: 1600px;
+  margin: 0;
+}
+
+body {
+  background-color: #F2F8FD;
+}
+
+.grid {
+  height: 100%;
+  display: grid;
+  grid-gap: 1px;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: 131px 1fr 119px;
+  grid-template-areas:
+    "header header"
+    "aside main"
+    "aside footer";
+}
+.container {
+  margin: auto;
+  width: 1550px;
+}
+
+header {
+  grid-area: header;
+}
+
+aside {
+  grid-area: aside;
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  grid-area: footer;
+}
+
+header {
+  padding-top: 23px;
+  padding-left: 25px;
+}
+
+header a {
+  padding-right: 123px;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+}
+
+header .search {
+  display: flex;
+  align-items: center;
+}
+
+.search {
+  margin-right: 25px;
+  width: 634px;
+  height: 53px;
+  background-color: #E9F1FA;
+  border-radius: 26.5px;
+}
+
+.search img {
+  margin-left: 18px;
+  margin-right: 13px;
+}
+
+.search p {
+  background-color: #E9F1FA;
+  padding: 0;
+  font-family: var(--serif);
+  color: var(--color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+header img.filter {
+  margin-right: 84px;
+}
+
+header img.location {
+  margin-right: 14px;
+}
+
+header h5 {
+  font-family: var(--serif);
+  color: var(--color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+header img.bing {
+  padding: 15px 16px;
+  border: 1px solid #B4BCC4;
+  border-radius: 50%;
+  margin-right: 31px;
+  margin-left: 58px;
+}
+
+.notification {
+  position: relative;
+}
+
+.Circle {
+  width:9px;
+  height: 9px;
+  border: 1px solid #FF7F5C;
+  border-radius: 50%;
+  background-color: #FF7F5C;
+  position: absolute;
+  top: -6px;
+  right: 29px;
+}
