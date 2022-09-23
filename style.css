@@ -7,7 +7,7 @@ html,
 body {
   height: 100%;
   width: 100%;
-  max-width: 1600px;
+  max-width: 1356px;
   margin: 0;
 }
 
@@ -19,17 +19,14 @@ body {
   height: 100%;
   display: grid;
   grid-gap: 1px;
-  grid-template-columns: 200px 1fr;
+  grid-template-columns: 207px 1fr;
   grid-template-rows: 131px 1fr 119px;
   grid-template-areas:
     "header header"
     "aside main"
     "aside footer";
 }
-.container {
-  margin: auto;
-  width: 1550px;
-}
+
 
 header {
   grid-area: header;
@@ -53,10 +50,10 @@ header {
 }
 
 header a {
-  padding-right: 123px;
+  padding-right: 109px;
 }
 
-header .container {
+header {
   display: flex;
   align-items: center;
 }
@@ -120,7 +117,7 @@ header img.bing {
 }
 
 .Circle {
-  width:9px;
+  width: 9px;
   height: 9px;
   border: 1px solid #FF7F5C;
   border-radius: 50%;
@@ -128,4 +125,43 @@ header img.bing {
   position: absolute;
   top: -6px;
   right: 29px;
+}
+
+aside {
+  margin-left: 25px;
+  margin-top: 49px;
+}
+
+aside .row {
+  margin-bottom: 63px;
+}
+
+aside .row a {
+  display: flex;
+  align-items: center;
+}
+
+aside a img {
+  margin-right: 14px;
+}
+
+aside p {
+  font-family: var(--serif);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  margin: 0;
+}
+aside .logout {
+  margin-bottom: 43px;
+}
+aside .logout a{
+  display: flex;
+  align-items: center;
+  margin-top: 114px;
+}
+
+aside .logout img {
+  padding-right: 18px;
 }
