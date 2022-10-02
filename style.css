@@ -174,12 +174,12 @@ aside .logout img {
 main {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   margin-right: 20px;
 }
 
 main .column:first-child {
-  margin-right: 42px;
+  width: 712px;
+  padding-right: 42px;
 }
 
 main .column h2 {
@@ -212,8 +212,7 @@ main .choice p {
 
 main .games {
   display: flex;
-  flex-direction: row;
-  gap: 26px;
+  justify-content: space-between;
 }
 
 main .game {
@@ -349,24 +348,100 @@ footer {
   display: flex;
   justify-content: space-between;
   margin-right: 20px;
+  padding-top: 42px;
+}
+
+footer .column:first-child {
+  width: 712px;
+  padding-right: 42px;
 }
 
 footer .event {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  padding-bottom: 58px;
+}
+
+footer .event h3 {
+  font-family: 'Baloo 2';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 48px;
+  color: #18333E;
+  margin: 0;
+}
+
+footer .event p {
+  font-family: 'Baloo 2';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #18333E;
+  margin: 0;
+  padding: 12px 31px;
+  border: 1px solid #B4BCC4;
+  border-radius: 24px;
 }
 
 footer .dates {
   display: flex;
+  justify-content: space-between;
+  padding-bottom: 59px;
+}
+
+footer .date p {
+  font-family: 'Baloo 2';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #18333E;
+  margin: 0;
+  opacity: 0.7;
+  padding-bottom: 10px;
+}
+
+footer .date h4 {
+  font-family: 'Baloo 2';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 40px;
+  color: #18333E;
+  margin: 0;
 }
 
 footer .tours {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 footer .tour {
   display: flex;
+  align-items: center;
+  width: 390px;
+  padding: 11px 23px;
+  background-color: #18333E;
+  border-radius: 25px;
+}
+
+footer .names {
+  padding-left: 25px;
+  padding-right: 68px;
+}
+
+footer .names p {
+  font-family: 'Baloo 2';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 29px;
+  margin: 0;
+  color: #FFFFFF;
 }
 
 footer .star {
@@ -374,9 +449,59 @@ footer .star {
   align-items: center;
 }
 
+footer .star img {
+  margin-right: 6px;
+}
+
+footer .tour h5 {
+  padding: 18px 10px;
+  background-color: #F9D44A;
+  border-radius: 13.5px;
+}
+
+footer img.img-tour {
+  border-radius: 25px;
+}
+
 footer .travel {
   display: flex;
   align-items: center;
+  padding-bottom: 44px;
+}
+
+footer .img-travel {
+  border-radius: 25px;
+  margin-right: 18px;
+}
+
+footer .travel h3 {
+  font-family: 'Baloo 2';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 35px;
+  color: #18333E;
+  margin: 0;
+  padding-bottom: 4px;
+}
+
+footer .travel p {
+  font-family: 'Baloo 2';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #18333E;
+  opacity: 0.7;
+  margin: 0;
+}
+
+footer .heard {
+  padding: 15px;
+  border-radius: 100%;
+  background: #E9F1FA;
+backdrop-filter: blur(2px);
+margin-left: 53px;
 }
 
 
