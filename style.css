@@ -277,7 +277,7 @@ main .images img.ribbon {
   border-radius: 15px;
   position: absolute;
   top: 197px;
-  right: 26px;
+  right: 22px;
 }
 
 main .names {
@@ -343,4 +343,44 @@ main .column button {
   padding: 16px 40px 17px 39px;
   background-color: #18333E;
   border-radius: 30.5px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+
+footer .event {
+  display: flex;
+  align-items: center;
+}
+
+footer .dates {
+  display: flex;
+}
+
+footer .tours {
+  display: flex;
+  align-items: center;
+}
+
+footer .tour {
+  display: flex;
+}
+
+footer .star {
+  display: flex;
+  align-items: center;
+}
+
+footer .travel {
+  display: flex;
+  align-items: center;
+}
+
+
+footer .location {
+  display: flex;
+  align-items: center;
 }
