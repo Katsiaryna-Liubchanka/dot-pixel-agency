@@ -175,6 +175,11 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-right: 20px;
+}
+
+main .column:first-child {
+  margin-right: 42px;
 }
 
 main .column h2 {
@@ -253,6 +258,89 @@ main .row p {
   margin-left: 10px;
 }
 
+main .images {
+  position: relative;
+}
+
+main .images img.heard {
+  padding: 14px;
+  background-color: rgb(250, 250, 250, 0.6);
+  border-radius: 50%;
+  position: absolute;
+  top: 21px;
+  right: 28px;
+}
+
+main .images img.ribbon {
+  padding: 12px 20px 10px 17px;
+  background-color: rgb(250, 250, 250, 0.6);
+  border-radius: 15px;
+  position: absolute;
+  top: 197px;
+  right: 26px;
+}
+
+main .names {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main .names h3 {
+  font-family: 'Baloo 2';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 48px;
+  color: #18333E;
+  margin: 0;
+}
+
+main .column h4 {
+  font-family: 'Baloo 2';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #18333E;
+  max-width: 337px;
+}
+
 main .book {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+}
+
+main .price p:first-child {
+  font-family: 'Baloo 2';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #18333E;
+  margin: 0;
+}
+
+main .price p:last-child {
+  font-family: 'Baloo 2';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 64px;
+  color: #18333E;
+  margin: 0;
+}
+
+main .column button {
+  font-family: 'Baloo 2';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 29px;
+  color: #FFFFFF;
+  padding: 16px 40px 17px 39px;
+  background-color: #18333E;
+  border-radius: 30.5px;
 }
