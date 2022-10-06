@@ -389,7 +389,16 @@ footer .event p {
 footer .dates {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 59px;
+  margin-bottom: 42px;
+}
+
+footer .date {
+  padding: 18px 17px 18px 21px;
+}
+
+footer .date:hover {
+  background-color: #18333E;
+  border-radius: 32px;
 }
 
 footer .date p {
@@ -404,6 +413,11 @@ footer .date p {
   padding-bottom: 10px;
 }
 
+footer .date:hover p {
+  color: white;
+  opacity: 1;
+}
+
 footer .date h4 {
   font-family: 'Baloo 2';
   font-style: normal;
@@ -412,6 +426,10 @@ footer .date h4 {
   line-height: 40px;
   color: #18333E;
   margin: 0;
+}
+
+footer .date:hover h4 {
+  color: white;
 }
 
 footer .tours {
@@ -508,4 +526,24 @@ margin-left: 53px;
 footer .location {
   display: flex;
   align-items: center;
+}
+
+@media screen and (max-width: 1110px) {
+
+}
+
+@media screen and (max-width: 944px) {
+
+}
+
+@media screen and (max-width: 698px) {
+
+}
+
+@media screen and (max-width: 767px) {
+
+}
+
+@media screen and (max-width: 516px) {
+
 }
